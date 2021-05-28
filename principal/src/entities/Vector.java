@@ -1,12 +1,12 @@
 package entities;
 
-public class Vector_Exerc26 {
+public class Vector {
 	
 	private String name;
 	private double price;
 	
 	
-	public Vector_Exerc26(String name, double price) {
+	public Vector(String name, double price) {
 		this.name = name;
 		this.price = price;
 	}

@@ -1,9 +1,9 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Aluno_Exerc23;
+import entities.Student;
 
-public class Exerc23_Aluno {
+public class Exerc23_Student {
 
 	public static void main(String[] args) {
 		/*Teste OOP. Digitar 3 notas de um aluno, se a nota total for menor que 60 mostrar na tela
@@ -15,7 +15,7 @@ public class Exerc23_Aluno {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		Aluno_Exerc23 estudante = new Aluno_Exerc23();
+		Student estudante = new Student();
 		
 		estudante.aluno = sc.next();
 		estudante.nota1 = sc.nextDouble();

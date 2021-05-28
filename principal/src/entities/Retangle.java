@@ -1,6 +1,6 @@
 package entities;
 
-public class Retangulo_Exerc25 {
+public class Retangle {
 	
 	public double width;
 	public double height;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import entities.Vector2_Exerc27;
+import entities.Vector2;
 
 public class Exerc27_Vector2 {
 
@@ -19,7 +19,7 @@ public class Exerc27_Vector2 {
 		 */
 
 		Scanner sc = new Scanner(System.in);
-		Vector2_Exerc27[] vect = new Vector2_Exerc27[10];
+		Vector2[] vect = new Vector2[10];
 
 		System.out.print("How many rooms will be rented? ");
 		int n = sc.nextInt();
@@ -34,7 +34,7 @@ public class Exerc27_Vector2 {
 			String email = sc.nextLine();
 			System.out.print("Room: ");
 			int room = sc.nextInt();
-			vect[room] = new Vector2_Exerc27(name, email);
+			vect[room] = new Vector2(name, email);
 		}
 
 		System.out.println("Busy rooms: ");

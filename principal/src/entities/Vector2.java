@@ -1,11 +1,11 @@
 package entities;
 
-public class Vector2_Exerc27 {
+public class Vector2 {
 	
 	private String name;
 	private String email;
 
-	public Vector2_Exerc27 (String name, String email) {
+	public Vector2 (String name, String email) {
 	this.name = name;
 	this.email = email;
 	}

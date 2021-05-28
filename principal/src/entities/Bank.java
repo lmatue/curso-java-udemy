@@ -1,18 +1,18 @@
 package entities;
 
-public class Banco_Exerc24 {
+public class Bank {
 	
 	private String name; 
 	private int account;
 	private double balance;
 	
-	public Banco_Exerc24 (String name, int account, double inicialDeposit) {
+	public Bank (String name, int account, double inicialDeposit) {
 		this.name = name;
 		this.account = account;
 		deposit(inicialDeposit);
 	}
 	
-	public Banco_Exerc24 (String name, int account) {
+	public Bank (String name, int account) {
 		this.name = name;
 		this.account = account;
 	}

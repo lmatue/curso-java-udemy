@@ -1,6 +1,6 @@
 package entities;
 
-public class Funcionario_Exerc22 {
+public class Employee {
 	public String nome;
 	public double salariomax;
 	public double taxa;

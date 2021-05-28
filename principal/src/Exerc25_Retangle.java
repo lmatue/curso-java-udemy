@@ -1,16 +1,16 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Retangulo_Exerc25;
+import entities.Retangle;
 
-public class Exerc25_Retangulo {
+public class Exerc25_Retangle {
 	/* Treino OOP. Area, perimetro e diagonal de um retangulo. */
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		Retangulo_Exerc25 retangle = new Retangulo_Exerc25();
+		Retangle retangle = new Retangle();
 
 		System.out.println("Enter Rectangle width and height:");
 		retangle.width = sc.nextDouble();

@@ -1,6 +1,6 @@
 package entities;
 
-public class Conversor_Exerc21 {
+public class Conversion {
 
 	public static final double IOF = 6.0;
 

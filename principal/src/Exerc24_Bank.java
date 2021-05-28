@@ -1,9 +1,9 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Banco_Exerc24;
+import entities.Bank;
 
-public class Exerc24_Banco {
+public class Exerc24_Bank {
 
 	public static void main(String[] args) {
 		/*
@@ -15,7 +15,7 @@ public class Exerc24_Banco {
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
 
-		Banco_Exerc24 bank;
+		Bank bank;
 
 		System.out.print("Enter Account number: ");
 		int accnumber = sc.nextInt();
@@ -40,10 +40,10 @@ public class Exerc24_Banco {
 		if (responde == 'y') {
 			System.out.print("Qual o valor inicial de depósito?: ");
 			double inicialDeposit = sc.nextDouble();
-			bank = new Banco_Exerc24(name, accnumber, inicialDeposit);
+			bank = new Bank(name, accnumber, inicialDeposit);
 		} else {
 			System.out.println("Você escolheu nao fazer o deposito inicial");
-			bank = new Banco_Exerc24(name, accnumber);
+			bank = new Bank(name, accnumber);
 		}
 
 		System.out.printf("Account data: %n%s", bank);

@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-import entities.Produto_Exerc20;
+import entities.Product;
 
 import java.util.Locale;
 
-public class Exerc20_Produto {
+public class Exerc20_Product {
 
 	public static void main(String[] args) {
 		
@@ -23,7 +23,7 @@ public class Exerc20_Produto {
 		System.out.print("Quantity in stock: ");
 		int quantity = sc.nextInt();
 		
-		Produto_Exerc20 product = new Produto_Exerc20(name, price, quantity);
+		Product product = new Product(name, price, quantity);
 				
 		System.out.println();
 		System.out.println("Product data: " + product);

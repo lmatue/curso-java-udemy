@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Triangle_Exerc19;
+import entities.Triangle;
 
 public class Exerc19_Triangle {
 	
@@ -12,10 +12,10 @@ public class Exerc19_Triangle {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		Triangle_Exerc19 x, y;
+		Triangle x, y;
 		
-		x = new Triangle_Exerc19();
-		y = new Triangle_Exerc19();
+		x = new Triangle();
+		y = new Triangle();
 		
 		
 		System.out.println("Enter the measures of triangle X: ");

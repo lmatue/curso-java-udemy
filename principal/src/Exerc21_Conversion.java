@@ -1,9 +1,9 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Conversor_Exerc21;
+import entities.Conversion;
 
-public class Exerc21_Conversor {
+public class Exerc21_Conversion {
 
 	public static void main(String[] args) {
 		/*Treino OOP. Preço do dolar em reais, quantidade a ser comprado, e o valor a ser pago em reais.*/
@@ -20,7 +20,7 @@ public class Exerc21_Conversor {
 		
 		double quantidade = sc.nextDouble();
 		
-		double valorConvertido = Conversor_Exerc21.conversor(dolar, quantidade);
+		double valorConvertido = Conversion.conversor(dolar, quantidade);
 
 	    System.out.printf("O valor que deverá ser pago é de R$ %.2f%n  ", valorConvertido);
 

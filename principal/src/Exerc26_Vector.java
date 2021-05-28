@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Vector_Exerc26;
+import entities.Vector;
 
 public class Exerc26_Vector {
 
@@ -18,12 +18,12 @@ public class Exerc26_Vector {
 
 		int n = sc.nextInt();
 
-		Vector_Exerc26[] vect = new Vector_Exerc26[n];
+		Vector[] vect = new Vector[n];
 		for (int i = 0; i < vect.length; i++) {
 			sc.nextLine();
 			String name = sc.nextLine();
 			double price = sc.nextDouble();
-			vect[i] = new Vector_Exerc26(name, price);
+			vect[i] = new Vector(name, price);
 		}
 
 		double sum = 0.0;
