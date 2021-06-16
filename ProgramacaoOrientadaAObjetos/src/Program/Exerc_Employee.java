@@ -6,7 +6,8 @@ import entities.Employee;
 
 public class Exerc_Employee {
 	
-	/*Treino OOP. criar o nome de um funcionario, seu salario bruto, e uma taxa, e depois adicionar uma porcentagem ao salario*/
+	/*Treino OOP. criar o nome de um funcionario, seu salario bruto, e uma taxa, e depois adicionar
+	 *  uma porcentagem ao salario*/
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);

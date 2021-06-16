@@ -10,7 +10,7 @@ public class Exerc_Bank {
 		/*
 		 * Um mini programa (exercicio) de criar uma conta no banco com nome, numero da
 		 * conta, e senha, tendo as opções de deposito e retirada de dinheiro.
-		 * OBS: O exercicio era bem basico, porem eu dei uma aumentada nele e adicionei mais opçôes
+		 * OBS: O exercicio era bem basico, porem eu dei uma melhorada nele e adicionei mais opçôes.
 		 */
 
 		Scanner sc = new Scanner(System.in);

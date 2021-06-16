@@ -28,8 +28,10 @@ public class Exerc_Employee2 {
 			System.out.print("Id: ");
 
 			int id = sc.nextInt();
-
-			while (hasId(list, id)) { // se usar o mesmo id ja contido, mostrar na tela que o id ja existe
+			
+			
+			// se usar o mesmo id ja contido, mostrar na tela que ja existe
+			while (hasId(list, id)) {
 				System.out.print("Id already taken. Try again: ");
 				id = sc.nextInt();
 			}
@@ -62,7 +64,8 @@ public class Exerc_Employee2 {
 		sc.close();
 
 	}
-
+	
+        /*Utilização de expressão lambda*/
 	public static boolean hasId(List<Employee2> list, int id) {
 		Employee2 emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
 		return emp != null;
