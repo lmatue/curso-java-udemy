@@ -32,3 +32,13 @@ Tópicos completos:
 #12 Enumerações, composição :heavy_check_mark:
 
 #13 Herança e Polimorfismo :heavy_check_mark:
+
+#14 Tratamento de Exceçôes :heavy_check_mark:
+
+#15 Projeto Jogo De Xadrez :hourglass:
+
+#16 Trabalhando com Arquivos :heavy_check_mark:
+
+#17 Interfaces :heavy_check_mark:
+
+#18 Generics, Set, Map :heavy_check_mark:
